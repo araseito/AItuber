@@ -1,0 +1,23 @@
+# config/video_config.json の内容
+video_config = {
+    "idle_pattern": [
+        {"video": "01", "repeat": 5},
+        {"video": "02", "repeat": 1},
+        {"video": "01", "repeat": 5},
+        {"video": "03", "repeat": 1}
+    ],
+    "video_files": {
+        "idle": {
+            "00": "idle00.jpg",
+            "01": "idle01.webm",
+            "02": "idle02.webm",
+            "03": "idle03.webm"
+        },
+        "talking": [
+            "talking5s-1.webm",
+            "talking6s-1.webm",
+            "talking7s-1.webm",
+            "talking7s-2.webm"
+        ]
+    }
+}
